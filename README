@@ -1,0 +1,7 @@
+Nothing but a quick implementation in python of weighted reservoir sampling, with or without replacement.
+
+The Poisson process interpretation is my own, but must exist in the literature somewhere, it's too easy.
+
+Thanks to Aneesh Sharma and Pankaj Gupta for a conversation about these things in February 2012.
+
+Depends on heapq (in the python standard library), and numpy. Numpy could be replaced by python's builtin random if you feel like it, it is only used to generate exponential random variables.
